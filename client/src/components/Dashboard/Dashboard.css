@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Poppins:wght@400;600&display=swap");
+/* mother container */
+.main-container{
+  width:100%;
+  height:100%;
+ overflow:hidden;
+}
+/* navside */
+.main-side {
+    width: 1320px;
+    height: 100%;
+    background-image: url("../../assets/img/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    background-blend-mode: darken;
+    position: absolute;
+    padding-top: 12px;
+    padding-left: 10px;
+   
+  }
+.main::-webkit-scrollbar{
+  display: none;
+}
+  
+.img-btn {
+  text-align: center;
+  width:50px;
+  height: 50px;
+  margin-left:125px;
+  margin-top:20px;
+  cursor: pointer;
+  z-index:2;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  height:100px;
+  top:0;
+  left:0;
+  z-index: 2;
+  padding:0px 0px;
+  
+}
+a{
+  text-decoration: none;
+  color:#444;
+}
+ a span{
+  padding-left:5px;
+ }
+
+.salesbook{
+  position: absolute;
+   margin-top:30px;
+   font-size:1.8rem;
+   font-weight:bold;
+   font-family: 'Pacifico', sans-serif;
+   color:#000af5;
+
+ }
+
+a .salesbook{
+  position:fixed;
+  left:60px;
+}
+
+/* .logo-dash {
+  text-align: center;
+  margin-top: 30px;
+  margin-left:25px;
+  position: absolute;
+  width:50px;
+  height:50px;
+  cursor: pointer;
+} */
+
