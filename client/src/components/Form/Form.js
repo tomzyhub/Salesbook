@@ -45,7 +45,7 @@ class Form extends React.Component {
     // console.log(data);
     axios({
       method: "POST",
-      url: "http://localhost:5000/api/",
+      url: "/api/",
       data: data,
     })
       .then((res) => {
