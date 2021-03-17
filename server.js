@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const dbconnection =
-  "mongodb+srv://admintom:admintom24@cluster0.6on2o.mongodb.net/<sellerCard>?retryWrites=true&w=majority";
+  "URI";
 const app = express();
 const port = process.env.PORT || 5000;
 const cors = require("cors");
